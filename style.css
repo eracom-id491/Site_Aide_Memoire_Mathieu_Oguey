@@ -4,10 +4,12 @@ html {
 
 .model {
 	max-width: 100%;
+	display: none;
 }
 
 body {
 	font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+	margin-top: 12rem;
 }
 .p1 { font-weight: 100;}
 .p2 { font-weight: 200;}
@@ -76,6 +78,7 @@ ol {
 
 .text  {
 	text-align: left;
+	margin-left: -4rem;
 }
 
 /*.logo:hover {
@@ -88,6 +91,7 @@ ol {
 
 .img {
 	text-align: left;
+	margin-left: -5rem;
 }
 
 
@@ -136,6 +140,7 @@ ol {
 
   .text  {
     padding: 0 3rem;
+	margin-left: auto;
   }
 
   .img img{
@@ -149,6 +154,7 @@ ol {
   }
   .img {
     text-align: center;
+	margin-left: auto;
   }
 
 
