@@ -1,0 +1,160 @@
+html {
+  font-family: sans-serif;
+}
+
+.model {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+}
+.p1 { font-weight: 100;}
+.p2 { font-weight: 200;}
+.p3 { font-weight: 300;}
+.p4 { font-weight: 400;}
+.p5 { font-weight: 500;}
+.p6 { font-weight: 600;}
+.p7 { font-weight: 700;}
+.p8 { font-weight: 800;}
+.p9 { font-weight: 900;}
+
+h1 {
+	font-size: 30px;
+}
+
+.h1_marges {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.h1_html {
+	color: #E44D25;
+}
+.h1_css {
+	color: #0070BA;
+}
+.h1_lg {
+	color: #F5CC00;
+}
+.h1_nd {
+	color: #A814A1;
+}
+.h1_ex {
+	color: #4514A8;
+}
+
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+hr {
+	height: 4px;
+	color: black;
+	background-color: black;
+	border: none;
+}
+
+ol {
+	padding-left: 0px;
+	font-size: 26px;
+}
+
+.card-list {
+  padding: 0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.img, .text {
+  flex: 1 1 0;
+}
+
+.text  {
+	text-align: left;
+}
+
+/*.logo:hover {
+  box-shadow: 0 0 0 0.25rem;
+}*/
+
+.card a {
+  text-decoration: none;
+}
+
+.img {
+	text-align: left;
+}
+
+
+.img img {
+  object-fit: contain;
+  max-width: 100%;
+  width: 100%;
+  max-height: 17em;
+  text-align: left;
+}
+
+.text_html:hover{
+	color: #E44D25;
+}
+.text_css:hover{
+	color: #0070BA;
+}
+.text_lg:hover{
+	color: #F5CC00;
+}
+.text_nd:hover{
+	color: #A814A1;
+}
+.text_ex:hover{
+	color: #4514A8;
+}
+
+/*
+ Media Query pour les écrans de plus grande taille
+*/
+
+@media (min-width: 40rem) {
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 0rem;
+    grid-row-gap: 1.5rem;
+	justify-content: space-around;
+  }
+
+  .text  {
+    padding: 0 3rem;
+  }
+
+  .img img{
+	  width: auto;
+  	transition: all 0.2s cubic-bezier(.24,.93,.6,.84) 0s;
+  }
+  .img img:hover {
+	object-fit: contain;
+    max-width: 100%;
+    max-height: 19em;
+  }
+  .img {
+    text-align: center;
+  }
+
+
+/*
+control HTML
+box shadow ?
+padding language HTML, centrer text image
+
+*/
